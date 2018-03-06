@@ -2,7 +2,8 @@ from setuptools import setup
 
 setup(
     name='kucoin_export',
-    version='0.1',
+    version='0.2',
+    py_modules=['kucoin'],
     install_requires=[
         'pandas',
         'ccxt',
