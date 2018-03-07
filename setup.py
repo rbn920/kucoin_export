@@ -6,7 +6,7 @@ setup(
     py_modules=['kucoin'],
     install_requires=[
         'pandas',
-        'ccxt',
+        'ccxt==1.10.1271',
         'privy',
         'cfscrape',
         'click'
