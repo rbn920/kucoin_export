@@ -11,6 +11,7 @@ setup(
         'cfscrape',
         'click'
     ],
+    python_requires='>=3',
     entry_points='''
     [console_scripts]
     kucoin=kucoin:cli
