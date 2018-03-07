@@ -141,6 +141,7 @@ def json_to_csv(fn, f_type):
 
     elif f_type == 'transfers':
         out_name = 'kucoin_transfers.csv'
+        out_df = df
 
     out_df.to_csv(out_name)
 
